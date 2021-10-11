@@ -1,0 +1,3 @@
+en:
+  theme_metadata:
+    description: "This component adds a button beside new-topic button to toggle anonymous-mode"
