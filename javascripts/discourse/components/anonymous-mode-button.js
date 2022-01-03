@@ -18,4 +18,12 @@ export default Component.extend({
       return "switch_to_anon";
     }
   },
+
+  get buttonClasses() {
+    if (this.currentUser.is_anonymous) {
+      return "btn-primary switch-to-anon";
+    } else {
+      return "btn-primary switch-from-anon";
+    }
+  }
 });
